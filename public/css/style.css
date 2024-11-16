@@ -1,0 +1,103 @@
+.container {
+    gap: 20px;
+    display: flex;
+    justify-content: center; /* Горизонтальное выравнивание */
+    align-items: center;    /* Вертикальное выравнивание */
+    margin: 0;
+    margin-top: 100px;
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.card img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+.card-title {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.card-price {
+    font-size: 16px;
+    color: #d9534f;
+}
+
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Стили для заголовка */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+/* Стили для навигации */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Стили для основного содержимого */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: #35424a;
+}
+
+/* Стили для изображений */
+main img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стили для подвала */
+footer {
+    text-align: center;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
